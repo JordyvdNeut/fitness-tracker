@@ -1,0 +1,22 @@
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
+import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { MaterialModule } from "../material.module";
+
+@NgModule({
+  exports: [
+    CommonModule,
+    FormsModule,
+    MaterialModule,
+    FlexLayoutModule
+  ],
+  imports: [
+    CommonModule,
+    FormsModule,
+    MaterialModule,
+    FlexLayoutModule
+  ]
+})
+export class SharedModule { }
